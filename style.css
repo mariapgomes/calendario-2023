@@ -1,0 +1,26 @@
+body {
+  text-align: center;
+  margin: 0;
+}
+
+li{
+  list-style: none;
+}
+ ul{
+  padding: 0;
+ }
+
+main {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.semanas {
+  display: flex;
+  gap: 1rem;
+  place-content: center;
+}
+
+.espacamento {
+  padding-top: 1.175rem;
+}
