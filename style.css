@@ -44,6 +44,7 @@ h2{
  padding: 0.5rem 0;
  background-color: #FF7000;
 }
+
 article{
  background-color: #FFE7D4;
  color: #0A050C;
@@ -99,12 +100,65 @@ h3 {
 }
 
 footer {
-  background-color:#540375;
-  margin-top: 35px;
+ background-color:#540375;
+ margin-top: 35px;
 }
 
 footer h3 {
  padding: 2.5rem;
  margin-bottom: 0;
  color: #F9F3FC;
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 1rem;
+   }
+
+   nav {
+    width: 15.625rem;
+    padding: 1rem 0;
+   }
+
+   h1 {
+    font-size: 1.5625rem;
+   }
+
+   span {
+    font-size: 4.6875rem;
+   }
+
+   main {
+    grid-template-columns: repeat(auto-fit, 300px);
+    gap: 2.1875rem;
+   }
+
+   h2{
+    padding: .3125rem 0;
+   }
+
+   .semanas {
+    gap: .5rem;
+    font-size: 1.25rem;
+   }
+
+   .espacamento {
+    padding-top: 1.75rem;
+   }
+
+   .feriado, .ponto-facultativo{
+    background-color: red;
+    font-weight: bold;
+    width: 25px;
+    margin-left: auto;
+    margin-right: auto;
+   }
+
+   .legenda-vermelha::before, .legenda-amarela::before {
+    margin: 0 .3125rem
+   }
+
+   footer h3 {
+    padding: 1.5rem;
+   }
 }
