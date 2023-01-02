@@ -88,8 +88,9 @@ section {
 }
 
 .legenda-amarela::before {
-  background-color: #FFBF00;
+ background-color: #FFBF00;
 }
+
 .ponto-facultativo{
  background-color: #FFBF00;
 }
@@ -110,55 +111,59 @@ footer h3 {
  color: #F9F3FC;
 }
 
+@media (max-width: 1009px) {
+ nav {
+  padding: 1rem 0;
+ }
+}
+
 @media (max-width: 480px) {
-  body {
-    font-size: 1rem;
-   }
+ body {
+  font-size: 1rem;
+ }
 
-   nav {
-    width: 15.625rem;
-    padding: 1rem 0;
-   }
+ nav {
+  width: 15.625rem;
+  padding: 1rem 0;
+ }
 
-   h1 {
-    font-size: 1.5625rem;
-   }
+ h1 {
+  font-size: 1.5625rem;
+ }
 
-   span {
-    font-size: 4.6875rem;
-   }
+ span {
+  font-size: 4.6875rem;
+ }
 
-   main {
-    grid-template-columns: repeat(auto-fit, 300px);
-    gap: 2.1875rem;
-   }
+ main {
+  grid-template-columns: repeat(auto-fit, 18.75rem);
+  gap: 2.1875rem;
+ }
 
-   h2{
-    padding: .3125rem 0;
-   }
+ h2{
+  padding: .3125rem 0;
+ }
 
-   .semanas {
-    gap: .5rem;
-    font-size: 1.25rem;
-   }
+ .semanas {
+  gap: .5rem;
+  font-size: 1.25rem;
+ }
 
-   .espacamento {
-    padding-top: 1.75rem;
-   }
+ .espacamento {
+  padding-top: 1.75rem;
+ }
 
-   .feriado, .ponto-facultativo{
-    background-color: red;
-    font-weight: bold;
-    width: 25px;
-    margin-left: auto;
-    margin-right: auto;
-   }
+ .feriado, .ponto-facultativo{
+  width: 25px;
+ }
 
-   .legenda-vermelha::before, .legenda-amarela::before {
-    margin: 0 .3125rem
-   }
+ .legenda-vermelha::before, .legenda-amarela::before {
+  margin: 0 .3125rem;
+  width: 15px;
+  height: 15px;
+ }
 
-   footer h3 {
-    padding: 1.5rem;
-   }
+ footer h3 {
+  padding: 1.5rem;
+ }
 }
