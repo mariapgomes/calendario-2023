@@ -1,6 +1,6 @@
 # Projeto - Calendario 2023
 
-Esse é um projeto pessoal desenvolvido com a ideia de colocar em prática o que estudei até esse momento sobre HTML, CSS e UI Desing. 
+Esse é um projeto pessoal desenvolvido com a ideia de colocar em prática o que estudei até esse momento sobre HTML, CSS e UI Design. 
 
 *Nele utilizei conhecimentos sobre:*
 
