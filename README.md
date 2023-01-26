@@ -12,6 +12,8 @@ Esse é um projeto pessoal desenvolvido com a ideia de colocar em prática o que
 * Propriedades do CSS;
 * Responsividade com Media Queries.
 
+## Link do site do projeto: https://calendario-2023-por-maria-gomes.netlify.app/
+
 **Abaixo está a prévia do projeto.**
 
 
